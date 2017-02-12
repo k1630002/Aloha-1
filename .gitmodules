@@ -1,0 +1,9 @@
+[submodule "AlohaApp"]
+	path = AlohaApp
+	url = https://github.com/lyubomir1993/AlohaApp
+[submodule "AlohaServer"]
+	path = AlohaServer
+	url = https://github.com/lyubomir1993/AlohaServer.git
+[submodule "AlohaWebsite"]
+	path = AlohaWebsite
+	url = https://github.com/lyubomir1993/AlohaWebsite.git
