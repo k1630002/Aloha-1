@@ -1,0 +1,3 @@
+[submodule "AlohaApp"]
+	path = AlohaApp
+	url = https://github.com/lyubomir1993/AlohaApp
