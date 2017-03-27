@@ -1,0 +1,93 @@
+body{
+    background:linear-gradient(to bottom right, white, #bcbdc4);
+    height: 100%;
+}
+.headerx{
+    position: fixed;
+    width: 100%;
+    height: 20%
+    top: 0;
+    left: 0;
+    color: darkgoldenrod;
+    background: #142170;
+    z-index: 7;
+    font-family: verdana;
+    
+}
+.headery{
+    position: fixed;
+    width: 100%;
+    height: 10%;
+    top:20;
+    left: 1000;
+    color: darkgoldenrod;
+    z-index: 7;
+    font-family: verdana;
+    
+}
+.aloha{
+    position: fixed;
+    left: 10px;
+}
+
+.chatbox{
+    width:500px;
+    min-width: 390px;
+    height: 300px;
+    background: #fff;
+    padding: 25px;
+    margin: 20px auto;
+    box-shadow: 0 3px #ccc;
+}
+.chatlogs{
+    padding: 10px;
+    width: 500px;
+    height: 250px;
+    background: #eee;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+.chatlogs::-webkit-scrollbar {
+    width: 10px;
+}
+.chatlogs::-webkit-scrollbar-thumb {
+border-radius: 5px;
+background: rgba(0,0,0,.1)}
+
+.chat{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-start;
+    margin-bottom: 10px;
+}
+.chat .user-photo{
+    width: 60px;
+    height: 60px;
+    background: #ccc;
+    border-radius: 50%;
+}
+.chat .chat-message{
+    width: 70%;
+    padding: 15px;
+    margin: 5px 10px 0;
+    background: #ff56;
+    border-radius: 10px;
+    color: antiquewhite;
+    font-size: 18px;
+}
+.friend .chat-message{
+    background: #cde;
+}
+.self .chat-message{
+    background: #bce;
+    order: -1;
+}
+.chat-form{
+    margin-top: 10px;
+    display: flex;
+    align-items: flex-start;
+    align-items: center;
+}
+textarea{
+    resize: both;
+}
